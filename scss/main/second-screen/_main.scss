@@ -1,0 +1,14 @@
+.second-screen {
+    .divider {
+        border-bottom: 2px solid $secondColor;
+        width: 45%;
+        margin: 40px auto;
+    }
+
+    @import "./row-1";
+    @import "./row-2";
+    @import "./row-3";
+    @import "./row-4";
+    @import "./row-5";
+    @import "./row-6";
+}

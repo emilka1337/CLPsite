@@ -1,0 +1,49 @@
+.third-screen {
+    width: 60%;
+    margin: auto;
+
+    h2 {
+        text-align: center;
+        color: $headingColor;
+    }
+
+    .divider {
+        border-bottom: 2px solid $secondColor;
+        width: 45%;
+        margin: 40px auto;
+    }
+
+    p {
+        font-size: 18px;
+
+        span {
+            display: block;
+            color: $headingColor;
+            text-align: center;
+            font-size: 26px;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    ul li:before {
+        content: '✓';
+        font-size: 20px;
+        font-weight: 800;
+        color: $headingColor;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .third-screen {
+        width: 100%;
+
+        p {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.row-3 {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+
+    &>p {
+        text-align: center;
+    }
+
+    .image-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+        
+        img {
+            width: 10%;
+            margin-right: 20px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .row-3 {
+        width: 100%;
+    }
+}

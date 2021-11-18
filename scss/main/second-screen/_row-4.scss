@@ -1,0 +1,15 @@
+.row-4 {
+    width: 60%;
+    display: block;
+    margin: auto;
+
+    p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .row-4 {
+        width: 100%;
+    }
+}

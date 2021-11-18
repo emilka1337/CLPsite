@@ -1,0 +1,23 @@
+ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    transition: 500ms;
+    height: 0px;
+    opacity: 0;
+    transform: translateX(200%);
+
+    li {
+        margin-bottom: 20px;
+        transition: 500ms;
+
+        &:hover {
+            transform: translateX(20px);
+        }
+
+        a {
+            padding: 20px 0px;
+            font-size: 1.2em;
+        }
+    }
+}

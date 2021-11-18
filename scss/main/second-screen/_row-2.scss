@@ -1,0 +1,16 @@
+.row-2 {
+    text-align: center;
+
+    h3 {
+        color: $headingColor;
+    }
+
+    p {
+        font-size: 20px;
+        margin-top: 20px;
+        
+        span {
+            font-size: 12px;
+        }
+    }
+}

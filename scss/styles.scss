@@ -1,0 +1,14 @@
+@import "./variables";
+
+body {
+    background: $firstColor;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+    @import "./header/header";
+    @import "./banner/banner";
+    @import "./main/first-screen/main";
+    @import "./main/second-screen/main";
+    @import "./main/third-screen/main";
+}

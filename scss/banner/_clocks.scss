@@ -1,0 +1,27 @@
+.clocks {
+    font-size: 30px;
+    height: 30%;
+    z-index: 150;
+
+    p {
+        margin-bottom: 0;
+        text-shadow: 5px 5px 10px #343434;
+
+        span {
+            margin: 0px 2px;
+            background: #343434;
+            color: #fff;
+            padding: 1px 5px;
+            border-radius: 5px;
+        }
+    }
+
+    .col-3 {
+        font-size: 14px;
+
+        span {
+            display: block;
+            width: 100%;
+        }
+    }
+}

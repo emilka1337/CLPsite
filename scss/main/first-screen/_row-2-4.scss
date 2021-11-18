@@ -1,0 +1,22 @@
+.main-row-2 {
+    h1 {
+        font-size: 26px;
+    }
+}
+
+.main-row-2,
+.main-row-4 {
+    h1 {
+        text-align: center;
+        color: $headingColor;
+        font-weight: 400;
+        margin: 20px 0px;
+    }
+}
+
+.main-row-4 {
+    h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
