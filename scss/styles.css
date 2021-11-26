@@ -43,6 +43,10 @@ body {
   font-size: 2em;
 }
 
+.container header .col-xl-8 img {
+  width: 100%;
+}
+
 .container header .col-xl-4 img {
   width: 200px;
 }
