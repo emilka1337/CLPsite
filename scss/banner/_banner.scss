@@ -80,6 +80,9 @@
 
     .show-banner {
         display: inline-block;
+        position: fixed;
+        top: 50vh;
+        right: 10px;
     }
 }
 
